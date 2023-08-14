@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myport polio</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .home{
+            height:100vh ;
+            width: 100%;
+            background-color: white;
+            
+        }
+        .home nav{
+            border: solid;
+            width:100% ;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: relative;
+           
+           
+            background-color: rgb(212, 201, 188);
+            border: grey;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .main .name{
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-150px,-50px);
+            
+        }
+        .material-symbols-outlined {
+ 
+        font-size: 50px;
+        animation: bounce 0.5s ease-in-out infinite alternate;
+        }
+        @keyframes bounce{
+            from{
+                transform: translateY(0px);
+
+            }
+            to{
+                transform: translateY(5px);
+            }
+        }
+        .about{
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(247, 243, 243);
+        }
+    </style>
+</head>
+<body>
+    <!--main class open-->
+    <div class="main">
+        <div class="home">
+            <nav>
+                <a href="">About</a>
+                <a href="">Project</a>
+                <a href="">contact</a>
+
+            </nav>
+            <div class="name">
+                <h1>i'am Pyspder</h1>
+                <h2>Hi, iam full stack devoloper</h2>
+                <a href="expand_circle_down"><span class="material-symbols-outlined">
+                    expand_circle_down
+                    </span></a>
+            </div>
+        </div>
+    </div>
+    
+    <!--main class end-->
+
+    <!--about class open-->
+    <div class="about">
+        <h1>About me</h1>
+
+        <!-- <a href=" man_2"><span class="material-symbols-outlined">
+            man_2
+            </span></a> -->
+            <img src="manlogo" alt="center">
+
+
+    </div>
+</body>
+</html>
